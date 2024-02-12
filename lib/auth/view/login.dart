@@ -1,10 +1,7 @@
 import 'package:my_app/common/widgets/height-spacer.dart';
 import 'package:my_app/common/widgets/text-input.dart';
-import 'package:my_app/common/widgets/height-spacer.dart';
-
 import 'package:my_app/auth/auth-service/auth-service.dart';
 import 'package:my_app/theme/colors.dart';
-
 import 'package:my_app/common/widgets/app-button.dart';
 
 import 'package:flutter/material.dart';

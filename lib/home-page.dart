@@ -2,7 +2,6 @@ import 'package:my_app/common/widgets/height-spacer.dart';
 import 'package:my_app/common/widgets/service-box.dart';
 import 'package:my_app/theme/text-styles.dart';
 
-import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,9 +15,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
-    var screenWidth = size.width;
-    var screenHeight = size.height;
     return SafeArea(
       child: Scaffold(
         body: Container(

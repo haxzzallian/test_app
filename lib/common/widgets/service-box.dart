@@ -27,7 +27,7 @@ class _ServiceBoxState extends State<ServiceBox> {
     var screenWidth = size.width;
     var screenHeight = size.height;
     return Container(
-      padding: EdgeInsets.all(10),
+      padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
           begin: Alignment.topCenter,
@@ -38,7 +38,6 @@ class _ServiceBoxState extends State<ServiceBox> {
           ],
         ),
         borderRadius: BorderRadius.circular(20),
-        //color: Color.fromRGBO(43, 153, 251, 1),
       ),
       height: 0.2 * screenHeight,
       width: 0.45 * screenWidth,
